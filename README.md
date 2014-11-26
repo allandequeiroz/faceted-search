@@ -1,7 +1,7 @@
-Faceted-Search é uma pequena motor de buscas escrito em java para auxiliar na indexação de conteúdo relacional e criação de ["faceted searches".](http://en.wikipedia.org/wiki/Faceted_search)
+Faceted-Search é um pequeno motor de buscas escrito em java para auxiliar na indexação de conteúdo relacional e criação de ["faceted searches".](http://en.wikipedia.org/wiki/Faceted_search)
 
 # Preparação  
-A utilização é bastante simples, a primeira coisa a se fazer é mapear as entidades persistentes, exemplos básicos podem ser vistos no facated-search-model.  
+A utilização é bastante simples, a primeira coisa a se fazer é mapear as entidades persistentes, exemplos básicos podem ser vistos no ["facated-search-model"](https://github.com/allandequeiroz/faceted-search/tree/master/faceted-search-model/src/main/java/co/mutt/fun/model).  
 A segunda coisa é configurar a conexão com o banco de dados, isso pode ser feito através do persistence.xml ou aproveitar os arquivos hibernate.cfg.xml pré configurados.  
 
 # Empacotamento
