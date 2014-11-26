@@ -1,0 +1,7 @@
+find . -type d -name .settings -exec rm -fr {} \;
+find . -type d -name target -exec rm -fr {} \;
+find . -type f -name .classpath -exec rm -fr {} \;
+find . -type f -name .project -exec rm -fr {} \;
+find . -type f -name *.iml -exec rm -fr {} \;
+find . -type d -name .idea -exec rm -fr {} \;
+find . -type f -name ejb-jar.xml -exec rm -fr {} \;
